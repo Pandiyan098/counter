@@ -1,0 +1,7 @@
+<div class="container">
+    <h1 class="heading">Counter</h1>
+    <p [ngStyle]="{color:countColor}" ngModel>{{totalCounts}}</p>
+    <button class="btn-outline-primary btn" (click)="onIncreseBtn()">Increse count</button>
+    <button class="btn-outline-info btn" (click)="onDecreseBtn()">Decrese count</button>
+    <button class="btn-outline-danger btn" (click)="onResetBtn()">Reset count</button>
+</div>
